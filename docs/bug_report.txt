@@ -1,0 +1,61 @@
+# 🐞 Rapport de bug – Phase 2
+
+---
+
+## ❌ BUG_01 – Message d’erreur de connexion non clair
+
+### 📌 Test concerné
+TC_LOGIN_02 – Connexion invalide
+
+---
+
+###  Description
+Lors d’une connexion avec des identifiants incorrects, le système affiche un message d’erreur non précis.
+
+---
+
+### Étapes pour reproduire
+1. Aller sur la page de connexion  
+2. Saisir un email incorrect  
+3. Saisir un mot de passe incorrect  
+4. Cliquer sur “Se connecter”  
+
+---
+
+### 🎯 Résultat attendu
+Afficher un message clair :
+👉 “Email ou mot de passe incorrect”
+
+---
+
+###  Résultat obtenu
+Message affiché :
+👉 “échec d’authentification”
+
+---
+
+###  Sévérité
+Haute 🔴
+
+---
+
+###  Priorité
+Haute 🔴
+
+---
+
+###  Analyse
+- La sécurité fonctionne correctement (accès refusé)
+- Le message manque de précision
+- Mauvaise expérience utilisateur (UX)
+
+---
+
+###  Recommandation
+Améliorer le message pour :
+ “Email ou mot de passe incorrect”
+
+---
+
+###  Statut
+Ouvert
