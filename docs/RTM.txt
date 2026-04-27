@@ -1,0 +1,39 @@
+#  Matrice de Traçabilité (RTM) – Phase 1 (Avant exécution)
+
+##  Objectif
+Assurer la correspondance entre les exigences fonctionnelles et les cas de test afin de garantir une couverture complète.
+
+⚠️ Remarque :
+Cette RTM est réalisée avant exécution des tests.
+ Aucun statut PASS/FAIL → uniquement "À tester"
+
+---
+
+##  RTM
+
+| ID Exigence | Description                     | Cas de Test       | Priorité | Statut     |
+|------------|---------------------------------|-------------------|----------|------------|
+| AUTH_01    | Inscription utilisateur         | TC_REGISTER_01    | Haute 🔴 | À tester   |
+| AUTH_02    | Connexion valide               | TC_LOGIN_01       | Haute 🔴 | À tester   |
+| AUTH_03    | Connexion invalide             | TC_LOGIN_02       | Haute 🔴 | À tester   |
+| SEARCH_01  | Recherche de produits          | TC_SEARCH_01      | Moyenne 🟡 | À tester |
+| CART_01    | Ajouter au panier              | TC_CART_01        | Haute 🔴 | À tester   |
+| CART_02    | Supprimer du panier            | TC_CART_02        | Moyenne 🟡 | À tester |
+| ORDER_01   | Validation de commande         | TC_ORDER_01       | Très haute 🔴 | À tester |
+
+---
+
+##  Analyse de couverture
+
+✔ Toutes les exigences sont couvertes  
+✔ Chaque exigence possède au moins un cas de test  
+✔ Traçabilité complète assurée  
+
+---
+
+##  Conclusion Phase 1
+
+- ✔ RTM construite correctement  
+- ✔ Couverture fonctionnelle complète  
+- ✔ Prête pour la Phase 2 (exécution)  
+- ❌ Aucun résultat de test à ce stade  
