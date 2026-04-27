@@ -9,7 +9,7 @@ Cette RTM est réalisée avant exécution des tests.
 
 ---
 
-## 📊 RTM
+##  RTM
 
 | ID Exigence | Description                     | Cas de Test       | Priorité | Statut     |
 |------------|---------------------------------|-------------------|----------|------------|
