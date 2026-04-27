@@ -1,0 +1,19 @@
+#  Plan de Test
+
+##  Objectif
+Valider le bon fonctionnement des principales fonctionnalités e-commerce de PrestaShop Demo.
+
+##  Périmètre (Scope)
+- Authentification (inscription / connexion)
+- Recherche de produits
+- Gestion du panier
+- Processus de commande (checkout)
+
+##  Types de test
+- Tests fonctionnels
+- Tests d’expérience utilisateur (UX)
+
+##  Environnement de test
+- Navigateur : Google Chrome
+- Système d’exploitation : Windows 10
+- Type de test : Tests manuels
