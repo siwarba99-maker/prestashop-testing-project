@@ -4,7 +4,7 @@
 
 ## ❌ BUG_01 – Message d’erreur de connexion non clair
 
-### 📌 Test concerné
+###  Test concerné
 TC_LOGIN_02 – Connexion invalide
 
 ---
@@ -22,7 +22,7 @@ Lors d’une connexion avec des identifiants incorrects, le système affiche un 
 
 ---
 
-### 🎯 Résultat attendu
+###  Résultat attendu
 Afficher un message clair :
 👉 “Email ou mot de passe incorrect”
 
