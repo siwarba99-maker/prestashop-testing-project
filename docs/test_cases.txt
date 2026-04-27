@@ -1,0 +1,134 @@
+# 🧪 Cas de Test – Phase 1 (Conception)
+
+##  Objectif
+Définir les cas de test pour valider les fonctionnalités principales de PrestaShop Demo.
+
+ Remarque :
+Cette phase est uniquement dédiée à la conception.
+Aucun test n’est exécuté → pas de statut PASS/FAIL.
+
+---
+
+##  TC_REGISTER_01 – Inscription utilisateur
+
+- **ID** : TC_REGISTER_01  
+- **Description** : Vérifier la création d’un nouveau compte utilisateur  
+- **Précondition** : Aucun compte existant  
+- **Étapes** :
+  1. Aller sur "Sign in"
+  2. Cliquer sur "Create account"
+  3. Remplir le formulaire
+  4. Valider  
+- **Résultat attendu** :
+  - Compte créé avec succès  
+  - Redirection vers l’espace client  
+- **Priorité** : Haute 🔴  
+
+---
+
+##  TC_LOGIN_01 – Connexion valide
+
+- **ID** : TC_LOGIN_01  
+- **Description** : Vérifier la connexion avec des identifiants valides  
+- **Précondition** : Compte utilisateur existant  
+- **Étapes** :
+  1. Accéder à la page de connexion  
+  2. Saisir un email valide  
+  3. Saisir un mot de passe valide  
+  4. Cliquer sur "Sign in"  
+- **Résultat attendu** :
+  - Connexion réussie  
+  - Redirection vers l’espace client  
+- **Priorité** : Haute 🔴  
+
+---
+
+##  TC_LOGIN_02 – Connexion invalide
+
+- **ID** : TC_LOGIN_02  
+- **Description** : Vérifier le comportement avec des identifiants incorrects  
+- **Précondition** : Aucune  
+- **Étapes** :
+  1. Accéder à la page de login  
+  2. Saisir un email incorrect  
+  3. Saisir un mot de passe incorrect  
+  4. Cliquer sur "Sign in"  
+- **Résultat attendu** :
+  - Message d’erreur affiché  
+  - Accès refusé  
+- **Priorité** : Haute 🔴  
+
+---
+
+##  TC_SEARCH_01 – Recherche produit
+
+- **ID** : TC_SEARCH_01  
+- **Description** : Vérifier la fonctionnalité de recherche  
+- **Précondition** : Page d’accueil affichée  
+- **Étapes** :
+  1. Utiliser la barre de recherche  
+  2. Saisir un mot-clé (ex : "accessoires")  
+  3. Lancer la recherche  
+- **Résultat attendu** :
+  - Liste de produits affichée  
+  - Résultats pertinents  
+- **Priorité** : Moyenne 🟡  
+
+---
+
+##  TC_CART_01 – Ajouter au panier
+
+- **ID** : TC_CART_01  
+- **Description** : Ajouter un produit au panier  
+- **Précondition** : Produit disponible  
+- **Étapes** :
+  1. Choisir un produit  
+  2. Cliquer sur "Ajouter au panier"  
+- **Résultat attendu** :
+  - Produit ajouté au panier  
+  - Message de confirmation affiché  
+- **Priorité** : Haute 🔴  
+
+---
+
+##  TC_CART_02 – Supprimer du panier
+
+- **ID** : TC_CART_02  
+- **Description** : Supprimer un produit du panier  
+- **Précondition** : Panier non vide  
+- **Étapes** :
+  1. Accéder au panier  
+  2. Cliquer sur supprimer  
+- **Résultat attendu** :
+  - Produit supprimé  
+  - Panier mis à jour  
+- **Priorité** : Moyenne 🟡  
+
+---
+
+##  TC_ORDER_01 – Validation de commande
+
+- **ID** : TC_ORDER_01  
+- **Description** : Vérifier le processus complet de commande  
+- **Précondition** :
+  - Produit dans le panier  
+  - Utilisateur connecté  
+- **Étapes** :
+  1. Aller au panier  
+  2. Procéder au checkout  
+  3. Saisir l’adresse  
+  4. Choisir la livraison  
+  5. Choisir le paiement  
+  6. Confirmer la commande  
+- **Résultat attendu** :
+  - Commande validée  
+  - Message de confirmation affiché  
+- **Priorité** : Très haute 🔴  
+
+---
+
+##  Résumé Phase 1
+- ✔ Cas de test définis
+- ✔ Étapes détaillées
+- ✔ Résultats attendus clairs
+- ❌ Aucun résultat réel (pas d’exécution)
