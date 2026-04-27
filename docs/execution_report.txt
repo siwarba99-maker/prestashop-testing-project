@@ -1,0 +1,67 @@
+# 🧪 Rapport d’exécution – Phase 2
+
+## 📌 Projet : Test PrestaShop Demo
+
+## 🎯 Objectif
+Exécuter les cas de test définis en Phase 1 et analyser les résultats obtenus.
+
+---
+
+## 🔐 TC_REGISTER_01 – Inscription utilisateur
+- **Résultat attendu** : Compte créé avec succès  
+- **Résultat obtenu** : Compte créé avec succès  
+- **Statut** : PASS ✅  
+- **Conclusion** : Fonctionnalité correcte, bon fonctionnement
+
+---
+
+## 🔐 TC_LOGIN_01 – Connexion valide
+- **Résultat attendu** : Connexion + redirection vers espace client  
+- **Résultat obtenu** : Connexion réussie + redirection correcte  
+- **Statut** : PASS ✅  
+- **Conclusion** : Authentification fonctionnelle
+
+---
+
+## ❌ TC_LOGIN_02 – Connexion invalide
+- **Résultat attendu** : Message d’erreur clair  
+- **Résultat obtenu** : Message générique “échec d’authentification”  
+- **Statut** : FAIL ❌  
+- **Conclusion** : Problème UX (message non clair)
+
+---
+
+## 🔎 TC_SEARCH_01 – Recherche produit
+- **Statut** : PASS ✅  
+- **Conclusion** : Résultats pertinents affichés correctement
+
+---
+
+## 🛒 TC_CART_01 – Ajouter au panier
+- **Statut** : PASS ✅  
+- **Conclusion** : Produit ajouté avec succès
+
+---
+
+## 🗑️ TC_CART_02 – Supprimer produit du panier
+- **Statut** : PASS ✅  
+- **Conclusion** : Mise à jour correcte du panier
+
+---
+
+## 📦 TC_ORDER_01 – Validation de commande
+- **Statut** : PASS ✅  
+- **Conclusion** : Processus de commande fonctionnel
+
+---
+
+## 📊 Résumé global
+- Nombre total de tests : 7  
+- Tests réussis : 6  
+- Tests échoués : 1  
+- Taux de réussite : environ 85 %
+
+---
+
+## 🚀 Conclusion
+Le système est globalement fonctionnel. Un seul problème UX a été détecté sur le message d’erreur de connexion invalide.

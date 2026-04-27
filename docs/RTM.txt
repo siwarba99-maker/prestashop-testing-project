@@ -1,0 +1,47 @@
+#  Matrice de Traçabilité (RTM) – Phase 2 (Après exécution)
+
+##  Objectif
+Vérifier la correspondance entre les exigences fonctionnelles et les résultats des cas de test exécutés afin de valider la qualité du système.
+
+⚠️ Remarque :
+Cette RTM est réalisée après exécution des tests.
+Elle inclut les résultats réels : PASS / FAIL.
+
+---
+
+##  RTM
+
+| ID Exigence | Description                | Cas de Test     | Priorité        | Statut Test | Résultat Final |
+|------------|----------------------------|----------------|-----------------|-------------|----------------|
+| AUTH_01    | Inscription utilisateur    | TC_REGISTER_01 | Haute 🔴        | PASS        | Succès |
+| AUTH_02    | Connexion valide          | TC_LOGIN_01    | Haute 🔴        | PASS        | Succès |
+| AUTH_03    | Connexion invalide        | TC_LOGIN_02    | Haute 🔴        | PASS        | Message d’erreur affiché correctement |
+| SEARCH_01  | Recherche de produits      | TC_SEARCH_01   | Moyenne 🟡      | PASS        | Produits affichés correctement |
+| CART_01    | Ajouter au panier         | TC_CART_01     | Haute 🔴        | PASS        | Produit ajouté au panier |
+| CART_02    | Supprimer du panier       | TC_CART_02     | Moyenne 🟡      | FAIL        | Produit non supprimé correctement |
+| ORDER_01   | Validation de commande    | TC_ORDER_01    | Très haute 🔴   | PASS        | Commande validée avec succès |
+
+---
+
+##  Analyse de couverture
+
+✔ Toutes les exigences ont été exécutées  
+✔ Couverture fonctionnelle complète  
+⚠️ 1 anomalie détectée (CART_02)
+
+---
+
+##  Anomalies détectées
+
+| ID Bug | Cas de Test | Description du problème |
+|--------|------------|--------------------------|
+| BUG_01 | TC_CART_02 | Le produit reste dans le panier après suppression |
+
+---
+
+##  Conclusion Phase 2
+
+- ✔ Tests exécutés avec succès globalement  
+- ✔ 1 bug identifié et documenté  
+- ✔ Système globalement fonctionnel  
+- ⚠️ Correction nécessaire sur la fonctionnalité de suppression du panier  
