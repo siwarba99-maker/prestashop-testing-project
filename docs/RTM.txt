@@ -23,7 +23,7 @@ Elle inclut les résultats réels : PASS / FAIL.
 
 ---
 
-## 📊 Analyse de couverture
+##  Analyse de couverture
 
 ✔ Toutes les exigences ont été exécutées  
 ✔ Couverture fonctionnelle complète  
